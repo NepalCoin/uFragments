@@ -6,7 +6,6 @@ import {
   solidityPack,
   splitSignature,
 } from 'ethers/lib/utils'
-import { ecsign } from 'ethereumjs-util'
 import { BigNumberish, Wallet } from 'ethers'
 
 export const EIP712_DOMAIN_TYPEHASH = keccak256(
